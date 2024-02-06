@@ -9,6 +9,7 @@ Comments
 Data Output
     - echo is the main way to print
     - Could print multiple Example: echo 123, "Hello", 10.5
+    - If a var is true(boolean) it will show 1.
 
     - print is another way but only can take one arg
 
@@ -17,3 +18,11 @@ Data Output
     - var_dump() returns more info like data type and length
 
     -var_export() similar to var_dump(). Outputs the string version of variable
+
+Data Types
+    - Everything in JS plus Resource
+    - Resource is a special variable that holds a Resource
+
+Variable Rules
+   - Must start with $
+   - Must start with _ or letter
